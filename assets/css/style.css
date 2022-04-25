@@ -1,0 +1,56 @@
+/* PALETA DE COLORES DEL PROYECTO
+white: #FFF;
+platinum: #E8EBE4;
+dark jungle: #1B1F21;
+
+FAMILIAS TIPOGRÁFICAS
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    width: 25%;
+    height: 100vh;
+    background-color: #FFF;
+}
+
+.networking {
+    width: 75%;
+    height: 100vh;
+    background-color: #E8EBE4;
+}
+
+/*ESTILOS DE LA BARRA LATERAL "CONTACTOS"*/
+
+/*ESTILOS DEL NETWORKING*/
+.networking {
+    font-family: 'Roboto', sans-serif;
+    color: #1B1F21;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.networking .manos {
+    width: 230px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.networking span {
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.networking p {
+    font-size: 16px;
+    text-align: center;
+    margin: 5px 0 5px 0;
+    line-height: 22px;
+}
