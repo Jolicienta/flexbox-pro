@@ -2,6 +2,9 @@
 white: #FFF;
 platinum: #E8EBE4;
 dark jungle: #1B1F21;
+outer space: #444749;
+gray: #BEC1BB;
+blue bell: #A491D2;
 
 FAMILIAS TIPOGRÁFICAS
 font-family: 'Open Sans', sans-serif;
@@ -26,6 +29,54 @@ aside {
 }
 
 /*ESTILOS DE LA BARRA LATERAL "CONTACTOS"*/
+.contactos {
+    font-family: 'Open Sans', sans-serif;
+    color: #444749
+}
+
+.maria {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    border: 1.5px solid #BEC1BB;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.maria .info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.maria img {
+    width: 29px;
+    height: 29px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.maria span {
+    font-size: 14px;
+}
+
+.maria p {
+    font-size: 10px;
+    margin: 0;
+}
+
+.maria .menu .fa-regular {
+    margin-right: 10px;
+}
+
+.maria .menu i:hover {
+    color: #A491D2;
+    cursor: pointer;
+}
+
+
 
 /*ESTILOS DEL NETWORKING*/
 .networking {
