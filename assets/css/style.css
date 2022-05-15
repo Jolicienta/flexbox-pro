@@ -10,6 +10,10 @@ FAMILIAS TIPOGRÁFICAS
 font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     margin: 0;
@@ -17,7 +21,7 @@ body {
 }
 
 aside {
-    width: 25%;
+    width: 20%;
     height: 100vh;
     background-color: #FFF;
 }
@@ -39,7 +43,7 @@ aside {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    height: 50px;
+    height: 60px;
     border: 1.5px solid #BEC1BB;
     padding-left: 25px;
     padding-right: 25px;
