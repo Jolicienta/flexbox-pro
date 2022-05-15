@@ -20,70 +20,111 @@ body {
     padding: 0;
 }
 
+.chat {
+    width: 100vw;
+    background-color: #E8EBE4;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+
+/* Estilos de la barra lateral "contactos"*/
 aside {
     width: 20%;
     height: 100vh;
     background-color: #FFF;
 }
 
-.networking {
-    width: 75%;
-    height: 100vh;
-    background-color: #E8EBE4;
-}
-
-/*ESTILOS DE LA BARRA LATERAL "CONTACTOS"*/
+/* Estilos generales de "contactos"  */
 .contactos {
     font-family: 'Open Sans', sans-serif;
     color: #444749
 }
 
-.maria {
+/* Estilos "contacto activo" */
+.contacto__activo, .contacto__inactivo, .Nuevo__chat {
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    height: 60px;
     border: 1.5px solid #BEC1BB;
-    padding-left: 25px;
-    padding-right: 25px;
+    background-color: #FFF;
 }
 
-.maria .info {
+.contacto__activo {
+    height: 55px;
+    padding: 0 25px 0 25px;
+    justify-content: space-between;
+}
+
+.contacto__activo .info, .contacto__inactivo .info {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.maria img {
+.contacto__activo img, .contacto__inactivo img {
     width: 29px;
     height: 29px;
     border-radius: 50px;
     margin-right: 10px;
+    border: 1.5px solid #BEC1BB;
 }
 
-.maria span {
+.contacto__activo span, .contacto__inactivo span {
     font-size: 14px;
 }
 
-.maria p {
+.contacto__activo p, .contacto__inactivo p {
     font-size: 10px;
     margin: 0;
 }
 
-.maria .menu .fa-regular {
+.contacto__activo .menu .fa-regular {
     margin-right: 10px;
 }
 
-.maria .menu i:hover {
+.contacto__activo .menu i:hover {
     color: #A491D2;
     cursor: pointer;
 }
 
+/* Estilos box "nuevo chat" */
+.Nuevo__chat {
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+}
 
+.Nuevo__chat button {
+    width: 160px;
+    color: #FFF;
+    background-color: #A491D2;
+    line-height: 40px;
+    border: none;
+}
 
-/*ESTILOS DEL NETWORKING*/
+/* Estilos "contacto inactivo"  */
+.contacto__inactivo {
+    height: 70px;
+    padding: 0 25px 0 25px;
+    justify-content: space-between;
+}
+
+.contacto__inactivo img {
+    width: 40px;
+    height: 40px;
+}
+
+.contacto__inactivo p {
+    font-size: 12px;
+}
+
+/* Estilos del "networking" */
 .networking {
+    width: 80%;
+    height: auto;
+    background-color: #E8EBE4;
     font-family: 'Roboto', sans-serif;
     color: #1B1F21;
     display: flex;
